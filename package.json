@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
   "dev": "vite",
-  "build": "vite build && npm run fb-emulators",
+  "build": "vite build",
   "fb-emulators": "firebase emulators:start --import=./fb-emulator --export-on-exit",
   "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
   "preview": "vite preview"
